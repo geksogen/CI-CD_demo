@@ -47,4 +47,4 @@ async def create_item(item: Item, credentials: HTTPBasicCredentials = Depends(ge
     return item
 
 
-#uvicorn.run(app, host="0.0.0.0", port="8080")
+uvicorn.run(app, host="0.0.0.0", port="8080")
