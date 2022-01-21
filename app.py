@@ -29,11 +29,11 @@ app.add_route("/metrics", handle_metrics)
 
 @app.get("/")
 def read_root(credentials: HTTPBasicCredentials = Depends(get_current_username)):
-    return {"Aloha": "Men :::::::::!)"}
+    return {"Aloha Men :::::::::!)"}
 
 @app.get("/check")
 def hello():
     return "Hello World"
 
 
-uvicorn.run(app, host="127.0.0.1", port="8080")
+#uvicorn.run(app, host="127.0.0.1", port="8080")
