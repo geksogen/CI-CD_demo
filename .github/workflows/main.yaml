@@ -39,7 +39,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.geksogen }}
-          password: ${{ secrets.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 }}
+          password: ${{ secrets.BbVTKt3YxMGLgMiu8avM3O9ZF5F8ibuHF7uMeAhUZCE= }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
