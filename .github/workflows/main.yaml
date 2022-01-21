@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ latest }}
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   test:
@@ -38,7 +38,7 @@ jobs:
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.geksogen }}
+          username: ${{ github.actor }}
           password: ${{ secrets.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 }}
 
       - name: Extract metadata (tags, labels) for Docker
