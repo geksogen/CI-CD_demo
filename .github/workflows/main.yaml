@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.geksogen/CI-CD_demo/ }}
+  IMAGE_NAME: ${{ web:latest }}
 
 jobs:
   test:
