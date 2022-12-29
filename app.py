@@ -29,7 +29,7 @@ app.add_route("/metrics", handle_metrics)
 
 @app.get("/")
 def read_root(credentials: HTTPBasicCredentials = Depends(get_current_username)):
-    return {"Hello from OTUS!)"}
+    return {"Hello from OTUS!!)"}
 
 @app.get("/check")
 def hello():
