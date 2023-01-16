@@ -1,2 +1,6 @@
 # CI-CD_demo
-# https://github.com/trallnag/prometheus-fastapi-instrumentator
+Demo for demonstration functional CI\CD process
+
+* Run test
+* Build image use doker
+* Push to GitHub registri
