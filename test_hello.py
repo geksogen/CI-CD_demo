@@ -4,5 +4,5 @@ from app import app
 client = TestClient(app)
 
 def test_valid_check():
-    response = client.get("/")
+    response = client.get("/test")
     assert response.status_code == 200
