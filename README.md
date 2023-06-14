@@ -5,17 +5,16 @@ Demo for demonstration functional CI\CD process
 * Build image use doker
 * Push to GitHub registri
 
-  Regular **Markdown** here.
-<div hidden>
-    
-    @startuml firstDiagram
+Regular **Markdown** here.
 
-    Alice -> Bob: Hello
-    Bob -> Alice: Hi!
+<!--
+@startuml firstDiagram
 
-    @enduml
-    
-</div>
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+	
+@enduml
+-->
 
 ![](firstDiagram.svg)
 
