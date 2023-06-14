@@ -5,17 +5,4 @@ Demo for demonstration functional CI\CD process
 * Build image use doker
 * Push to GitHub registri
 
-Regular **Markdown** here.
-
-<!--
-@startuml firstDiagram
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-	
-@enduml
--->
-
-![](firstDiagram.svg)
-
-Some more markdown.
+![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt)
