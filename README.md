@@ -5,4 +5,4 @@ Demo for demonstration functional CI\CD process
 * Build image use doker
 * Push to GitHub registri
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=[https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt](https://raw.githubusercontent.com/linux-china/plantuml-gist/master/src/main/uml/plantuml_gist.puml)https://raw.githubusercontent.com/linux-china/plantuml-gist/master/src/main/uml/plantuml_gist.puml)
+![PlantUML model](http://plantuml.com:80/plantuml/png/3SNB4K8n2030LhI0XBlTy0YQpF394D2nUztBtfUHrE0AkStCVHu0WP_-MZdhgiD1RicMdLpXMJCK3TC3o2iEDwHSxvNVjWNDE43nv3zt731SSLbJ7onzbyeF)
