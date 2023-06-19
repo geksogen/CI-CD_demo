@@ -28,41 +28,6 @@ requirementDiagram
     verifymethod: demonstration
     }
 
-    interfaceRequirement test_req4 {
-    id: 1.2.1
-    text: the fourth test text.
-    risk: medium
-    verifymethod: analysis
-    }
-
-    physicalRequirement test_req5 {
-    id: 1.2.2
-    text: the fifth test text.
-    risk: medium
-    verifymethod: analysis
-    }
-
-    designConstraint test_req6 {
-    id: 1.2.3
-    text: the sixth test text.
-    risk: medium
-    verifymethod: analysis
-    }
-
-    element test_entity {
-    type: simulation
-    }
-
-    element test_entity2 {
-    type: word doc
-    docRef: reqs/test_entity
-    }
-
-    element test_entity3 {
-    type: "test suite"
-    docRef: github.com/all_the_tests
-    }
-
 
     test_entity - satisfies -> test_req2
     test_req - traces -> test_req2
