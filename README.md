@@ -7,9 +7,9 @@ Demo for demonstration functional CI\CD process
 
 ```mermaid
 sequenceDiagram
-    Alice->>John: Hello John, how are you?
+    Andrei->>John: Hello John, how are you?
     John-->>Alice: Great!
-    Alice-)John: See you later!
+    Andrei-)John: See you later!
 ```
 
 [An Internal Link](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
