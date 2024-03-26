@@ -8,8 +8,8 @@ Demo for demonstration functional CI\CD process
 ```mermaid
 sequenceDiagram
     Git commit->>Test: Auto test
-    Test-->>Build: Run Build!
-    Build-->Publish: Publish to registry
-    Publish-->Prod: Deploy to stage
+    Test->>Build: Run Build!
+    Build->>Publish: Publish to registry
+    Publish->>Prod: Deploy to stage
 ```
 
