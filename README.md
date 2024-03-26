@@ -1,4 +1,4 @@
-# CI-CD_demo
+## CI-CD_demo
 Demo for demonstration functional CI\CD process
 
 * Run test
