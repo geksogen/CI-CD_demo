@@ -7,10 +7,9 @@ Demo for demonstration functional CI\CD process
 
 ```mermaid
 sequenceDiagram
-    Andrei->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Andrei-)John: See you later!
+    Git commit->>Test: Auto test
+    Test-->>Build: Run Build!
+    Build-->Publish: Publish to registry
+    Publish-->Prod: Deploy to stage
 ```
 
-[An Internal Link](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
-[An Internal Link](https://mermaid.js.org/intro/)
