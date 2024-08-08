@@ -4,3 +4,4 @@ fastapi
 requests
 pytest
 starlette_exporter
+httpx
