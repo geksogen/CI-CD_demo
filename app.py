@@ -23,7 +23,7 @@ def get_current_username(credentials: HTTPBasicCredentials = Depends(security)):
             headers={"WWW-Authenticate": "Basic"},
         )
     return credentials.username
-
+####
 app.add_middleware(PrometheusMiddleware)
 app.add_route("/metrics", handle_metrics)
 
